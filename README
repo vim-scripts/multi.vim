@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=272
+
+Script to use Greenhills Multi as C/C++ compiler from vim with ':make <project_build_file>'.
+Sets compiler and errorformat for use with quickfix commands.
+Needs a tool ('catch', not supported) on NT4 to catch stderr and stdout in my environment.
+(Probably not necessary under Unix).
+
+Does not catch all error and warning formats (especially. no linker problems).
